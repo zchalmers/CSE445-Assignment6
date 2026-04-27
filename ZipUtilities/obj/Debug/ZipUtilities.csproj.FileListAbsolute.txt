@@ -1,0 +1,12 @@
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\ZipUtilities\bin\Debug\ZipUtilities.dll
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\ZipUtilities\bin\Debug\ZipUtilities.pdb
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\ZipUtilities\obj\Debug\ZipUtilities.csproj.AssemblyReference.cache
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\ZipUtilities\obj\Debug\ZipUtilities.csproj.CoreCompileInputs.cache
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\ZipUtilities\obj\Debug\ZipUtilities.dll
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\ZipUtilities\obj\Debug\ZipUtilities.pdb
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\ZipUtilities\bin\Debug\ZipUtilities.dll
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\ZipUtilities\bin\Debug\ZipUtilities.pdb
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\ZipUtilities\obj\Debug\ZipUtilities.csproj.AssemblyReference.cache
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\ZipUtilities\obj\Debug\ZipUtilities.csproj.CoreCompileInputs.cache
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\ZipUtilities\obj\Debug\ZipUtilities.dll
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\ZipUtilities\obj\Debug\ZipUtilities.pdb

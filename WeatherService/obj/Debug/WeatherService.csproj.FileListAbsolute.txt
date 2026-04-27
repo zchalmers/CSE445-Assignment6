@@ -1,0 +1,14 @@
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\WeatherService\bin\WeatherService.dll.config
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\WeatherService\bin\WeatherService.dll
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\WeatherService\bin\WeatherService.pdb
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\WeatherService\obj\Debug\WeatherService.csproj.AssemblyReference.cache
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\WeatherService\obj\Debug\WeatherService.csproj.CoreCompileInputs.cache
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\WeatherService\obj\Debug\WeatherService.dll
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\Assignment5\WeatherService\obj\Debug\WeatherService.pdb
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\WeatherService\bin\WeatherService.dll.config
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\WeatherService\bin\WeatherService.dll
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\WeatherService\bin\WeatherService.pdb
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\WeatherService\obj\Debug\WeatherService.csproj.AssemblyReference.cache
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\WeatherService\obj\Debug\WeatherService.csproj.CoreCompileInputs.cache
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\WeatherService\obj\Debug\WeatherService.dll
+C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5\WeatherService\obj\Debug\WeatherService.pdb
