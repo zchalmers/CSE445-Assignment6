@@ -78,7 +78,9 @@ namespace Assignment6
                     }
                 }
 
-                SaveLastZip(validation.NormalizedZip);
+                var zipCookie = new HttpCookie(LastZipCookieName, validation.NormalizedZip);
+                zipCookie.Expires = DateTime.Now.AddDays(30);
+                Response.Cookies.Add(zipCookie);
                 lblWeatherStatus.Text = "Forecast loaded successfully.";
                 lblLastZipCookie.Text = "Last saved ZIP: " + validation.NormalizedZip;
             }
@@ -88,11 +90,5 @@ namespace Assignment6
             }
         }
 
-        private void SaveLastZip(string zipCode)
-        {
-            var zipCookie = new HttpCookie(LastZipCookieName, zipCode);
-            zipCookie.Expires = DateTime.Now.AddDays(30);
-            Response.Cookies.Add(zipCookie);
-        }
     }
 }

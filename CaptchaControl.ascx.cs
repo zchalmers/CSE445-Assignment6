@@ -30,7 +30,7 @@ namespace Assignment6
         // Regenerates the question on failure.
         public bool Validate()
         {
-            int correct = Session["CaptchaAnswer"] != null ? (int)Session["CaptchaAnswer"] : -999;
+            int correct = Session["CaptchaAnswer"] != null ? (int)Session["CaptchaAnswer"] : 0;
             int userAnswer;
 
             if (!int.TryParse(txtAnswer.Text.Trim(), out userAnswer))

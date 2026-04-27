@@ -14,13 +14,6 @@ namespace Assignment6
         {
             if (!IsPostBack)
             {
-                if (Request.QueryString["action"] == "logout")
-                {
-                    FormsAuthentication.SignOut();
-                    Response.Redirect("~/Default.aspx");
-                    return;
-                }
-
                 // Already logged in as staff, go straight there
                 if (User.Identity.IsAuthenticated)
                 {

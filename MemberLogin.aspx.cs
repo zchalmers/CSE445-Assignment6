@@ -68,8 +68,7 @@ namespace Assignment6
             string encTicket = FormsAuthentication.Encrypt(authTicket);
             Response.Cookies.Add(new HttpCookie(FormsAuthentication.FormsCookieName, encTicket));
 
-            string returnUrl = Request.QueryString["ReturnUrl"];
-            Response.Redirect(!string.IsNullOrEmpty(returnUrl) ? returnUrl : "~/Member.aspx");
+            Response.Redirect("~/Member.aspx");
         }
     }
 }

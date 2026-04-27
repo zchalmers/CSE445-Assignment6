@@ -77,8 +77,7 @@ namespace Assignment6
             }
 
             bool duplicate = doc.Root.Elements("Member").Any(m =>
-                string.Equals(m.Element("Username")?.Value, username,
-                              StringComparison.OrdinalIgnoreCase));
+                m.Element("Username")?.Value == username);
 
             if (duplicate)
             {
@@ -92,7 +91,7 @@ namespace Assignment6
             doc.Root.Add(new XElement("Member",
                 new XElement("Username", username),
                 new XElement("PasswordHash", hash),
-                new XElement("RegisteredDate", DateTime.UtcNow.ToString("o")),
+                new XElement("RegisteredDate", DateTime.Now.ToShortDateString()),
                 new XElement("SavedZips")
             ));
 
