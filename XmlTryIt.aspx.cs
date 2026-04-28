@@ -7,8 +7,8 @@ namespace Assignment6
         protected void Page_Load(object sender, EventArgs e)
         {
             lblSessionCache.Text = Session["LastJsonResult"] != null && Session["LastJsonResult"].ToString() != ""
-                ? "Cached (" + Session["LastJsonResult"].ToString().Length + " chars). Navigate away and return - still here."
-                : "(nothing cached yet - run a conversion above)";
+                ? "Last conversion cached for this session (" + Session["LastJsonResult"].ToString().Length + " chars)."
+                : "(nothing cached yet)";
         }
 
         protected void btnVerifyValid_Click(object sender, EventArgs e)
@@ -30,7 +30,7 @@ namespace Assignment6
             string json = XmlVerification.Xml2Json(XmlVerification.XML_VALID);
             Session["LastJsonResult"] = json;
             lblJsonValid.Text = json;
-            lblSessionCache.Text = "Just cached " + json.Length + " chars in Session[\"LastJsonResult\"].";
+            lblSessionCache.Text = "Cached " + json.Length + " chars for this session.";
         }
 
         protected void btnConvertCustom_Click(object sender, EventArgs e)

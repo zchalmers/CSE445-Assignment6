@@ -20,7 +20,7 @@ namespace Assignment6
             Application["TotalVisits"] = 0;
             SeedStaffXml();
         }
-
+ 
         void Session_Start(object sender, EventArgs e)
         {
             // Increment visit counter

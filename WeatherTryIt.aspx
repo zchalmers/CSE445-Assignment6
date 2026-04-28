@@ -4,8 +4,7 @@
     <section class="info-card tryit-shell">
         <h2>Weather Service TryIt</h2>
         <p>
-            This page validates ZIP code input with the local DLL, calls the weather service, and stores the last
-            successful ZIP code in a cookie.
+            Enter a ZIP code to validate it and view a five-day forecast.
         </p>
 
         <div class="form-group">
@@ -19,7 +18,7 @@
             <h3>Search Status</h3>
             <p><strong>Normalized ZIP:</strong> <asp:Label ID="lblWeatherNormalizedZip" runat="server" Text="" /></p>
             <p><strong>Status:</strong> <asp:Label ID="lblWeatherStatus" runat="server" Text="" /></p>
-            <p><strong>Cookie State:</strong> <asp:Label ID="lblLastZipCookie" runat="server" Text="" /></p>
+            <p><strong>Last ZIP:</strong> <asp:Label ID="lblLastZipCookie" runat="server" Text="" /></p>
         </div>
 
         <div class="result-panel">

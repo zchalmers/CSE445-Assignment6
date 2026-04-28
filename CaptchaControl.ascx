@@ -1,8 +1,4 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CaptchaControl.ascx.cs" Inherits="Assignment6.CaptchaControl" %>
-<%-- CaptchaControl.ascx - Math CAPTCHA User Control
-     Used in: MemberRegister.aspx (registration)
-     Public method: bool Validate() - call from parent page on form submit
---%>
 <div style="background:#fff8e1;border:1px solid #e0b830;padding:14px 18px;
             margin:8px 0;font-family:Arial,sans-serif;border-left:4px solid #c8941a;">
     <strong>Human Verification</strong>

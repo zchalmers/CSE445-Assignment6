@@ -17,7 +17,8 @@
             </div>
             <div class="col-md-4 text-right" style="padding-top:10px;">
                 <asp:Button ID="btnLogout" runat="server" Text="Sign Out"
-                    CssClass="btn btn-default" CausesValidation="false" />
+                    CssClass="btn btn-default" CausesValidation="false"
+                    OnClick="btnLogout_Click" />
             </div>
         </div>
     </div>
@@ -34,7 +35,8 @@
                         placeholder="Enter ZIP code (e.g. 85281)" MaxLength="10" />
                     <span class="input-group-btn">
                         <asp:Button ID="btnGetForecast" runat="server" Text="Get Forecast"
-                            CssClass="btn btn-primary" />
+                            CssClass="btn btn-primary"
+                            OnClick="btnGetForecast_Click" />
                     </span>
                 </div>
 
@@ -53,7 +55,8 @@
                 <%-- Save ZIP (visible after forecast loads) --%>
                 <asp:Panel ID="pnlSaveZip" runat="server" Visible="false" style="margin-top:14px;">
                     <asp:Button ID="btnSaveZip" runat="server" Text="&#9733; Save this ZIP"
-                        CssClass="btn btn-sm btn-default" CausesValidation="false" />
+                        CssClass="btn btn-sm btn-default" CausesValidation="false"
+                        OnClick="btnSaveZip_Click" />
                     <asp:Label ID="lblSaveStatus" runat="server" CssClass="text-success"
                         style="margin-left:8px;" />
                 </asp:Panel>

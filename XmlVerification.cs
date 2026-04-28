@@ -1,6 +1,3 @@
-// App_Code/XmlVerification.cs
-
-
 using System;
 using System.IO;
 using System.Xml;
@@ -11,14 +8,10 @@ namespace Assignment6
 {
     public static class XmlVerification
     {
-        // Assignment 4 GitHub Pages URLs
         public const string XML_VALID = "https://asuandrew.github.io/cse445-assignment4/NationalParks.xml";
         public const string XML_ERROR = "https://asuandrew.github.io/cse445-assignment4/NationalParksErrors.xml";
         public const string XSD_URL   = "https://asuandrew.github.io/cse445-assignment4/NationalParks.xsd";
 
-    
-        // Input:  xmlUrl (string), xsdUrl (string)
-        // Output: "No errors are found" or error message string(s)
         public static string Verify(string xmlUrl, string xsdUrl)
         {
             try
@@ -43,9 +36,6 @@ namespace Assignment6
             catch (Exception ex) { return ex.Message; }
         }
 
-    
-        // Input:  xmlUrl (string)
-        // Output: indented JSON string
         public static string Xml2Json(string xmlUrl)
         {
             try

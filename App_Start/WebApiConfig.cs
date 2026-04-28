@@ -1,6 +1,3 @@
-// WebApiConfig.cs - Web API Route Configuration
-// Author: Andrew Courter | CSE445 Assignment 3
-
 using System.Web.Http;
 
 namespace Assignment6

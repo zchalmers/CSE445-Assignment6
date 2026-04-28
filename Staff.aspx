@@ -17,7 +17,8 @@
             </div>
             <div class="col-md-4 text-right" style="padding-top:10px;">
                 <asp:Button ID="btnStaffLogout" runat="server" Text="Sign Out"
-                    CssClass="btn btn-default" CausesValidation="false" />
+                    CssClass="btn btn-default" CausesValidation="false"
+                    OnClick="btnStaffLogout_Click" />
             </div>
         </div>
     </div>

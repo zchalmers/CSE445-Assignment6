@@ -16,7 +16,6 @@
         </div>
     </div>
 
-    <%-- How to test + sample inputs --%>
     <div class="row section-grid">
         <div class="col-md-6">
             <section class="info-card">
@@ -44,7 +43,6 @@
         </div>
     </div>
 
-    <%-- Member / Staff access --%>
     <div class="row section-grid">
         <div class="col-md-6">
             <section class="info-card">
@@ -62,7 +60,7 @@
                 <h2>Staff Page</h2>
                 <p>
                     Staff access is controlled by the site administrator via
-                    <code>Staff.xml</code>. Grader test credentials:
+                    <code>Staff.xml</code>. Staff test account:
                     <strong>TA / Cse445!</strong>
                 </p>
                 <a class="btn btn-warning" href="Staff.aspx">Open Staff Page</a>
@@ -70,12 +68,11 @@
         </div>
     </div>
 
-    <%-- Service Directory (Assignment requirement) --%>
     <section class="info-card">
         <h2>Service Directory</h2>
         <p class="text-muted">
-            Deployment URL:
-            <strong>http://webstrarportal-env.eba-uzcvm8rb.us-west-2.elasticbeanstalk.com/sites/website163/Page1/</strong>
+            Main deployment URL:
+            <strong>http://webstrarportal-env.eba-uzcvm8rb.us-west-2.elasticbeanstalk.com/sites/website163/Page0/Default.aspx</strong>
         </p>
         <p class="text-muted">
             Team Contribution: Zach Chalmers 50% | Andrew Courter 50%

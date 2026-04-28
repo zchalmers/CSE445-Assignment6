@@ -16,7 +16,6 @@ namespace Assignment6
             }
         }
 
-        // Register new member: validate inputs + captcha, hash password, write to XML
         protected void btnRegister_Click(object sender, EventArgs e)
         {
             lblRegError.Text = string.Empty;

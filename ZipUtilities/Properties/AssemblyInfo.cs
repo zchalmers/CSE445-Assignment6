@@ -2,11 +2,11 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("ZipUtilities")]
-[assembly: AssemblyDescription("Assignment 5 ZIP validation DLL.")]
+[assembly: AssemblyDescription("Assignment 6 ZIP validation DLL.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ZipUtilities")]
-[assembly: AssemblyCopyright("Copyright © 2026")]
+[assembly: AssemblyCopyright("Copyright 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]

@@ -24,7 +24,7 @@
                         CssClass="btn btn-warning" OnClick="btnLogin_Click" />
                 </div>
                 <p class="text-muted" style="margin-top:10px; font-size:0.85em;">
-                    <strong>Grader test credentials:</strong> TA / Cse445!
+                    <strong>Staff test account:</strong> TA / Cse445!
                 </p>
             </div>
         </div>

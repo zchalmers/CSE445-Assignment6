@@ -1,12 +1,2 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Members>
-  <Member>
-    <Username>test</Username>
-    <PasswordHash>9bba5c53a0545e0c80184b946153c9f58387e3bd1d4ee35740f29ac2e718b019</PasswordHash>
-    <RegisteredDate>2026-04-26T23:53:30.0798061Z</RegisteredDate>
-    <SavedZips>
-      <Zip>94583</Zip>
-      <Zip>93401</Zip>
-    </SavedZips>
-  </Member>
-</Members>
+<?xml version="1.0" encoding="utf-8"?>
+<Members />

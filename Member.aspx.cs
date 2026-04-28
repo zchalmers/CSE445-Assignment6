@@ -223,7 +223,6 @@ namespace Assignment6
             gvSavedZips.DataBind();
         }
 
-        // Change password: verify current, hash new, update XML
         protected void btnChangePassword_Click(object sender, EventArgs e)
         {
             lblChangeStatus.CssClass = "text-danger";

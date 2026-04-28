@@ -7,30 +7,28 @@
 </style>
 
 <h2>XML TryIt Page</h2>
-<p class="text-muted">XmlVerification: Verify + Xml2Json - Andrew Courter</p>
+<p class="text-muted">XmlVerification: Verify + Xml2Json</p>
 
 <!-- Verify Valid XML -->
 <div class="panel">
-    <h2>Verify Valid XML (expected: "No errors are found")</h2>
-    <p>URL: <code>https://asuandrew.github.io/cse445-assignment4/NationalParks.xml</code></p>
-    <asp:Button ID="btnVerifyValid" runat="server" Text="Run Verify (Valid XML)" CssClass="btn btn-primary" OnClick="btnVerifyValid_Click" />
-    <div class="code"><asp:Label ID="lblVerifyValid" runat="server" Text="Click to test..." /></div>
+    <h2>Validate Sample XML</h2>
+    <asp:Button ID="btnVerifyValid" runat="server" Text="Validate XML" CssClass="btn btn-primary" OnClick="btnVerifyValid_Click" />
+    <div class="code"><asp:Label ID="lblVerifyValid" runat="server" Text="Ready." /></div>
 </div>
 
 <!-- Verify Error XML -->
 <div class="panel">
-    <h2>Verify Error XML (expected: validation errors)</h2>
-    <p>URL: <code>https://asuandrew.github.io/cse445-assignment4/NationalParksErrors.xml</code></p>
-    <asp:Button ID="btnVerifyError" runat="server" Text="Run Verify (Error XML)" CssClass="btn btn-primary" OnClick="btnVerifyError_Click" />
-    <div class="code"><asp:Label ID="lblVerifyError" runat="server" Text="Click to test..." /></div>
+    <h2>Validate XML With Errors</h2>
+    <asp:Button ID="btnVerifyError" runat="server" Text="Validate Error Sample" CssClass="btn btn-primary" OnClick="btnVerifyError_Click" />
+    <div class="code"><asp:Label ID="lblVerifyError" runat="server" Text="Ready." /></div>
 </div>
 
 <!-- Convert to JSON -->
 <div class="panel">
-    <h2>Convert NationalParks.xml to JSON</h2>
+    <h2>Convert Sample XML to JSON</h2>
     <asp:Button ID="btnConvertValid" runat="server" Text="Convert Valid XML to JSON" CssClass="btn btn-success" OnClick="btnConvertValid_Click" />
-    <div class="code"><asp:Label ID="lblJsonValid" runat="server" Text="Click to convert..." /></div>
-    <div class="sess"><strong>Session cache:</strong> <asp:Label ID="lblSessionCache" runat="server" Text="(nothing cached yet)" /></div>
+    <div class="code"><asp:Label ID="lblJsonValid" runat="server" Text="Ready." /></div>
+    <div class="sess"><strong>Cached conversion:</strong> <asp:Label ID="lblSessionCache" runat="server" Text="(nothing cached yet)" /></div>
 </div>
 
 <div class="panel">
@@ -39,7 +37,7 @@
     <asp:TextBox ID="txtCustomUrl" runat="server" CssClass="form-control"
         Text="https://asuandrew.github.io/cse445-assignment4/NationalParks.xml" />
     <asp:Button ID="btnConvertCustom" runat="server" Text="Convert Custom XML to JSON" CssClass="btn btn-primary" OnClick="btnConvertCustom_Click" />
-    <div class="code"><asp:Label ID="lblJsonCustom" runat="server" Text="Click to convert..." /></div>
+    <div class="code"><asp:Label ID="lblJsonCustom" runat="server" Text="Ready." /></div>
 </div>
 
 </asp:Content>

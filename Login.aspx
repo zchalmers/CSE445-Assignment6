@@ -25,7 +25,8 @@
                 <asp:Label ID="lblMemberError" runat="server" CssClass="text-danger" />
                 <div style="margin-top:14px;">
                     <asp:Button ID="btnMemberLogin" runat="server" Text="Sign In"
-                        CssClass="btn btn-primary" />
+                        CssClass="btn btn-primary"
+                        OnClick="btnMemberLogin_Click" />
                     <a href="MemberRegister.aspx" class="btn btn-default" style="margin-left:8px;">
                         Create Account
                     </a>
@@ -55,10 +56,11 @@
                 <asp:Label ID="lblStaffError" runat="server" CssClass="text-danger" />
                 <div style="margin-top:14px;">
                     <asp:Button ID="btnStaffLogin" runat="server" Text="Sign In"
-                        CssClass="btn btn-warning" />
+                        CssClass="btn btn-warning"
+                        OnClick="btnStaffLogin_Click" />
                 </div>
                 <p class="text-muted" style="margin-top:10px; font-size:0.85em;">
-                    <strong>Grader test credentials:</strong> TA / Cse445!
+                    <strong>Staff test account:</strong> TA / Cse445!
                 </p>
             </div>
         </div>

@@ -4,18 +4,17 @@
     <section class="info-card tryit-shell">
         <h2>DLL TryIt</h2>
         <p>
-            This page tests the local DLL component. The ZIP-validation DLL normalizes input and checks
-            whether the ZIP code is valid.
+            Enter a ZIP code to validate and normalize it.
         </p>
 
         <div class="form-group">
             <label for="<%= txtZipInput.ClientID %>">ZIP Code Input</label>
             <asp:TextBox ID="txtZipInput" runat="server" CssClass="form-control" placeholder="Enter a ZIP code" />
         </div>
-        <asp:Button ID="btnValidateZip" runat="server" CssClass="btn btn-primary" Text="Run DLL Validation" OnClick="btnValidateZip_Click" />
+        <asp:Button ID="btnValidateZip" runat="server" CssClass="btn btn-primary" Text="Validate ZIP" OnClick="btnValidateZip_Click" />
 
         <div class="result-panel">
-            <h3>DLL Output</h3>
+            <h3>Result</h3>
             <p><strong>Normalized ZIP:</strong> <asp:Label ID="lblNormalizedZip" runat="server" Text="" /></p>
             <p><strong>Validation Result:</strong> <asp:Label ID="lblValidationState" runat="server" Text="" /></p>
             <p><strong>Message:</strong> <asp:Label ID="lblValidationMessage" runat="server" Text="" /></p>
