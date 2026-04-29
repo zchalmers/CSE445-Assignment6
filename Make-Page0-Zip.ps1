@@ -5,10 +5,13 @@ param(
 $src = "C:\Users\zchal\CODING\SPRING2026\CSE445\Assignment5"
 
 # Folders to skip entirely
-$skipFolders = @('.vs', 'obj', '.git', 'WeatherService', 'EncryptionLib', 'ZipUtilities', 'NaturalHazardsService', 'WcfService1', 'packages', 'TestResults')
+$skipFolders = @('.vs', 'obj', '.git', '.cursor', 'WeatherService', 'EncryptionLib', 'ZipUtilities', 'NaturalHazardsService', 'WcfService1', 'packages', 'TestResults')
 
 # File extensions to skip
 $skipExts = @('.suo', '.user', '.pdb', '.csproj', '.sln', '.cache', '.zip')
+
+# Specific filenames to skip
+$skipNames = @('.gitignore', 'Make-Page0-Zip.ps1')
 
 if (Test-Path $OutZip) { Remove-Item $OutZip -Force }
 
@@ -28,8 +31,8 @@ try {
         # Skip junk extensions
         if ($skipExts -contains $_.Extension.ToLower()) { return }
 
-        # Skip this script itself
-        if ($_.Name -eq 'Make-Page0-Zip.ps1') { return }
+        # Skip specific filenames
+        if ($skipNames -contains $_.Name) { return }
 
         [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($zip, $_.FullName, $rel) | Out-Null
         Write-Host "  + $rel"

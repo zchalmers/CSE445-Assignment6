@@ -76,7 +76,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - CSE 445 Assignment 6 Weather Planner</p>
+                <p>&copy; <%: DateTime.Now.Year %> - CSE 445 Assignment 6</p>
             </footer>
         </div>
 

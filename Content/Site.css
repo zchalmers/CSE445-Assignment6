@@ -19,29 +19,28 @@ textarea {
 }
 
 .intro-panel {
-    margin: 24px 0 32px;
-    padding: 28px 30px;
+    margin: 20px 0 30px;
+    padding: 20px;
     background-color: #ffffff;
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
     border-radius: 6px;
 }
 
 .intro-panel h1 {
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .intro-panel .lead {
     max-width: 720px;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
     font-size: 20px;
-    font-weight: 400;
-    color: #444444;
+    color: #444;
 }
 
 .intro-actions .btn {
-    margin-right: 12px;
-    margin-bottom: 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .section-grid {
@@ -49,12 +48,11 @@ textarea {
 }
 
 .info-card {
-    margin-bottom: 24px;
-    padding: 22px;
+    margin-bottom: 20px;
+    padding: 20px;
     background-color: #fff;
-    border: 1px solid #dddddd;
+    border: 1px solid #ccc;
     border-radius: 6px;
-    box-shadow: none;
 }
 
 .info-card h2,
@@ -77,35 +75,18 @@ textarea {
 }
 
 .placeholder-note {
-    margin-top: 12px;
-    color: #4d5a68;
+    margin-top: 10px;
+    color: #666;
 }
 
 .tryit-shell {
-    margin-top: 24px;
+    margin-top: 20px;
 }
 
 .result-panel {
     margin-top: 20px;
-    padding: 18px 20px;
+    padding: 15px;
     background-color: #fafafa;
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
     border-radius: 6px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .jumbotron {
-        margin-top: 20px;
-    }
-
-    .body-content {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .intro-panel {
-        padding: 24px;
-    }
 }
